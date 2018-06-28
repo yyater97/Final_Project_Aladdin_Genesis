@@ -1,0 +1,78 @@
+﻿Build started 12/28/2017 10:27:37 AM.
+     1>Project "E:\dev\Final_Project_Aladdin_Genesis\Final_Project_Aladdin_Genesis\Final_Project_Aladdin_Genesis\Final_Project_Aladdin_Genesis.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Aladdin.cpp
+         Aladdin.cpp
+         d:\program files (x86)\microsoft directx sdk (august 2009)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>e:\dev\final_project_aladdin_genesis\final_project_aladdin_genesis\final_project_aladdin_genesis\aladdin.cpp(73): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\dev\final_project_aladdin_genesis\final_project_aladdin_genesis\final_project_aladdin_genesis\aladdin.cpp(74): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\dev\final_project_aladdin_genesis\final_project_aladdin_genesis\final_project_aladdin_genesis\aladdin.cpp(75): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\dev\final_project_aladdin_genesis\final_project_aladdin_genesis\final_project_aladdin_genesis\aladdin.cpp(76): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\dev\final_project_aladdin_genesis\final_project_aladdin_genesis\final_project_aladdin_genesis\aladdin.cpp(77): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\dev\final_project_aladdin_genesis\final_project_aladdin_genesis\final_project_aladdin_genesis\aladdin.cpp(78): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\dev\final_project_aladdin_genesis\final_project_aladdin_genesis\final_project_aladdin_genesis\aladdin.cpp(79): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\dev\final_project_aladdin_genesis\final_project_aladdin_genesis\final_project_aladdin_genesis\aladdin.cpp(348): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>e:\dev\final_project_aladdin_genesis\final_project_aladdin_genesis\final_project_aladdin_genesis\aladdin.cpp(629): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>e:\dev\final_project_aladdin_genesis\final_project_aladdin_genesis\final_project_aladdin_genesis\aladdin.cpp(918): warning C4553: '==' : operator has no effect; did you intend '='?
+     1>e:\dev\final_project_aladdin_genesis\final_project_aladdin_genesis\final_project_aladdin_genesis\aladdin.cpp(1356): warning C4018: '>' : signed/unsigned mismatch
+     1>e:\dev\final_project_aladdin_genesis\final_project_aladdin_genesis\final_project_aladdin_genesis\aladdin.cpp(1589): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>e:\dev\final_project_aladdin_genesis\final_project_aladdin_genesis\final_project_aladdin_genesis\aladdin.cpp(1659): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\dev\Final_Project_Aladdin_Genesis\Final_Project_Aladdin_Genesis\Debug\Final_Project_Aladdin_Genesis.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib d3d9.lib d3dx9.lib dinput8.lib dxguid.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\dev\Final_Project_Aladdin_Genesis\Final_Project_Aladdin_Genesis\Debug\Final_Project_Aladdin_Genesis.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\dev\Final_Project_Aladdin_Genesis\Final_Project_Aladdin_Genesis\Debug\Final_Project_Aladdin_Genesis.lib" /MACHINE:X86 Debug\Abu.obj
+         Debug\AbuItem.obj
+         Debug\Aladdin.obj
+         Debug\AladdinFace.obj
+         Debug\Apple.obj
+         Debug\Bird.obj
+         Debug\BloodBar.obj
+         Debug\BlueHeart.obj
+         Debug\Boss.obj
+         Debug\Enemy.obj
+         Debug\FallingGround.obj
+         Debug\Fire.obj
+         Debug\FireCarpet.obj
+         Debug\GameSound.obj
+         Debug\Genie.obj
+         Debug\GenieFace.obj
+         Debug\GenieJar.obj
+         Debug\Item.obj
+         Debug\Knives.obj
+         Debug\Lamp.obj
+         Debug\Rod.obj
+         Debug\Ruby.obj
+         Debug\Scene.obj
+         Debug\Sound.obj
+         Debug\Spittle.obj
+         Debug\Camel.obj
+         Debug\Camera.obj
+         Debug\CollarBeam.obj
+         Debug\Collision.obj
+         Debug\Directx.obj
+         Debug\Game.obj
+         Debug\BaseObject.obj
+         Debug\Ground.obj
+         Debug\Guard1.obj
+         Debug\Guard2.obj
+         Debug\Guard3.obj
+         Debug\Jar.obj
+         Debug\JarThrower.obj
+         Debug\Map.obj
+         Debug\Quadnode.obj
+         Debug\Quadtree.obj
+         Debug\readXML.obj
+         Debug\Rope.obj
+         Debug\Sprite.obj
+         Debug\Star.obj
+         Debug\Sword.obj
+         Debug\Swordsman.obj
+         Debug\TextureManager.obj
+         Debug\Theft.obj
+         Debug\trace.obj
+         Debug\WaveFile.obj
+         Debug\winmain.obj
+         Final_Project_Aladdin_Genesis.vcxproj -> E:\dev\Final_Project_Aladdin_Genesis\Final_Project_Aladdin_Genesis\Debug\Final_Project_Aladdin_Genesis.exe
+     1>Done Building Project "E:\dev\Final_Project_Aladdin_Genesis\Final_Project_Aladdin_Genesis\Final_Project_Aladdin_Genesis\Final_Project_Aladdin_Genesis.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.59
