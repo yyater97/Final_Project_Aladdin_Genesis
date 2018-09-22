@@ -32,7 +32,7 @@ void Aladdin::LoadResources()
 	inity = y;
 	w = 37;
 	h = 50;
-	k
+
 	keyUp[0] = true;
 	keyUp[1] = true;
 	keyUp[2] = true;
@@ -49,9 +49,9 @@ void Aladdin::LoadResources()
 	last_vy = 0;
 	isCreateApple = false;
 	isBlink = 0;
-	blood = 100;
+	blood = 8;
 	score = 0;
-	numberofapples = 100;
+	numberofapples = 10;
 	numberofrubies = 0;
 	numberoflifes = 3;
 	isCollStair = false;
@@ -696,12 +696,12 @@ void Aladdin::Throw()
 	case THROWING:
 	{
 					 int i = aladdin_image->getIndex();
-					 if ((i == 48 || i == 49 || i == 121 || i == 188 || i == 78) /*&& isCreateApple == false*/)
+					 if ((i == 48 || i == 49 || i == 121 || i == 188 || i == 78) && isCreateApple == false)
 					 {
 						 GameSound::getInstance()->play(THROW_MUSIC);
 
 						 createApple();
-						 //isCreateApple = true;
+						 isCreateApple = true;
 					 }
 					 if (aladdin_image->isActionFinish())
 					 {

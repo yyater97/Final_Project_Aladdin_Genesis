@@ -30,7 +30,7 @@ int Game::Game_Init(HWND hwnd)
 	scene = new Scene();
 	scene->Scene_Init(d3ddev);
 	scene->sceneID = -1;
-	scene->Scene_SceneBoss();
+	scene->Scene_Start0();
 
 	//return okay
 	return 1;
